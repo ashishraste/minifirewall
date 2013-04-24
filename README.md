@@ -36,7 +36,7 @@ Run the user-space ``minifirewall`` program after compiling it. Follow the steps
 
 What do you observe? You should NOT be able to ping any server since you have written a minifirewall rule to block all
 the incoming packets bounded to your system. Also you can try opening a webpage in your browser which should be 
-unsuccessful. If not, then there is some problem with the passing/registering the rules with minifw.
+unsuccessful. If not, then there is some problem with passing/registering the rules with the LKM minifw.
 <br/><br/>
 Play around with some more rules of minifirewall by going through its source until I update a "help" section which
 lists out all the parameters for minifirewall's rules. <br/> <br/>
