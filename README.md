@@ -1,8 +1,8 @@
-<h1> minifirewall: a packet filtering firewall for Linux </h1>
+### minifirewall: a packet filtering firewall for Linux
 minifirewall is a simple packet filtering firewall for Linux written in C. It uses Netfilter's hooks to watch the inbound
 and outbound packets for a machine in a network.
 
-<h2> Source files' description </h2>
+#### Source files' description 
 Under the LKM directory: <br/>
 ``minifw.c`` : A Linux Kernel module (LKM) which implements Netfilter's hooks mainly ``NF_INET_LOCAL_IN`` and 
 ``NF_INET_LOCAL_OUT`` to filter the packets. <br/>
@@ -17,7 +17,7 @@ details to the code after some clean-up work. <br/>
 ``minifirewall.h`` : Contains macros and structs as in minifw.c. All the fields in the struct my_ipt are initialised in 
 minifirewall.c and are sent to minifw LKM through /proc. </br/> <br/>
 
-<h2> Demo of minifirewall </h2>
+#### Demo of minifirewall 
 Follow the steps given below to insert minifw LKM into the kernel.
 
         cd LKM
