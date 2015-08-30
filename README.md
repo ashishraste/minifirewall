@@ -16,7 +16,7 @@ details to the code after some clean-up work. <br/>
 ``minifirewall.h`` : Contains macros and structs as in minifw.c. All the fields in the struct my_ipt are initialised in 
 minifirewall.c and are sent to minifw LKM through /proc. </br/> <br/>
 
-#### Demo of minifirewall 
+#### Brief demo 
 Follow the steps given below to insert minifw LKM into the kernel.
 
         cd LKM
@@ -40,9 +40,3 @@ unsuccessful. If not, then there is some problem with passing/registering the ru
 Play around with some more rules of minifirewall by going through its source until I update a "help" section which
 lists out all the parameters for minifirewall's rules. <br/> <br/>
 Good luck!
-
-
-        
-
-
-
