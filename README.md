@@ -1,6 +1,5 @@
 ### minifirewall: a packet filtering firewall for GNU/Linux systems
-minifirewall is a simple packet filtering firewall for Linux written in C. It uses Netfilter's hooks to watch the inbound
-and outbound packets for a machine in a network.
+minifirewall is a simple packet filtering firewall, written in C, for GNU/Linux based systems. It uses Netfilter's hooks to watch the inbound and outbound packets of a computer in a network.
 
 #### Source files' description 
 Under the LKM directory: <br/>
